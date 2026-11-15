@@ -44,6 +44,8 @@ jobs:
           git diff --cached --quiet || git commit -m "Datos reales al $(node -p "require('./datos/economia.json').fechaDatos")"
           git push || echo "No se pudo guardar el commit (se publica igual)"
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web
