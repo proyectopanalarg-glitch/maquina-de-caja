@@ -1,0 +1,51 @@
+# Baja los datos reales de la economía argentina todas las mañanas, arma el juego y lo publica en GitHub Pages.
+# Todo gratis: GitHub Actions + GitHub Pages en un repositorio público.
+name: Actualizar datos y publicar
+
+on:
+  schedule:
+    - cron: "15 10 * * *"   # 07:15 en Argentina, todos los días
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["motor/**", "web/juego.src.html", "build.mjs", "datos/actualizar.mjs", ".github/workflows/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Bajar datos reales (BCRA, INDEC, ArgentinaDatos, datos.gob.ar)
+        run: node datos/actualizar.mjs
+      - name: Pruebas
+        run: node test/motor.test.mjs && node test/mcp.test.mjs
+      - name: Armar el juego
+        run: node build.mjs
+      - name: Guardar los datos del día en el repositorio
+        run: |
+          git config user.name "maquina-de-caja-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/economia.json web/index.html web/datos/economia.json
+          git diff --cached --quiet || git commit -m "Datos reales al $(node -p "require('./datos/economia.json').fechaDatos")"
+          git push || echo "No se pudo guardar el commit (se publica igual)"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deploy
+        uses: actions/deploy-pages@v4

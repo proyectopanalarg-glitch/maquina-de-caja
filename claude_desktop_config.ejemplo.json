@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "maquina-caja": {
+      "command": "node",
+      "args": ["/RUTA/COMPLETA/maquina-pyme/mcp/server.mjs"]
+    }
+  }
+}

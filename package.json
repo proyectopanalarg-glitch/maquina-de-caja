@@ -1,0 +1,33 @@
+{
+  "name": "maquina-caja-pyme",
+  "version": "3.0.0",
+  "description": "La Máquina de Caja: juego educativo de flujo de caja para Pymes metalmecánicas argentinas, con la economía real actualizada todos los días. Juego web + MCP server, sin dependencias.",
+  "type": "module",
+  "bin": {
+    "maquina-caja-mcp": "mcp/server.mjs"
+  },
+  "scripts": {
+    "datos": "node datos/actualizar.mjs",
+    "build": "node build.mjs",
+    "mcp": "node mcp/server.mjs",
+    "test": "node test/motor.test.mjs && node test/mcp.test.mjs",
+    "balance": "node test/balance.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pyme",
+    "argentina",
+    "flujo de caja",
+    "juego",
+    "metalmecanica"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proyectopanalarg-glitch/maquina-de-caja"
+  }
+}

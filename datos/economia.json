@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "actualizado": "2026-11-09T12:00:00-03:00",
+  "fechaDatos": "2026-11-06",
+  "fuentes": [
+    {"id": "dolar", "nombre": "Dólar oficial BNA, mayorista y MEP (prensa económica / Rava)", "ok": true, "nota": "cargado a mano desde fuentes públicas (búsqueda web) para la prueba"},
+    {"id": "inflacion", "nombre": "Inflación INDEC (ago y sep 2026)", "ok": true, "nota": "cargado a mano desde fuentes públicas (búsqueda web) para la prueba"},
+    {"id": "rem", "nombre": "REM BCRA: inflación esperada 12 meses (publicado 5/11)", "ok": true, "nota": "cargado a mano desde fuentes públicas (búsqueda web) para la prueba"},
+    {"id": "tasas", "nombre": "Tasa plazo fijo (mediana bancos) y adelantos en cuenta corriente", "ok": true, "nota": "cargado a mano, valores aproximados de prensa"},
+    {"id": "feriados", "nombre": "Feriados nacionales", "ok": true, "nota": "2026 completo hasta fin de año; 2027 solo fijos, Carnaval y Viernes Santo (los trasladables se completan con la actualización automática)"},
+    {"id": "ipim", "nombre": "IPIM metal (INDEC)", "ok": false, "nota": "no incluido en la prueba: se proyecta con el REM"},
+    {"id": "salarios", "nombre": "Índice de salarios (INDEC)", "ok": false, "nota": "no incluido en la prueba: se proyecta con el REM"}
+  ],
+  "dolarOficial": [["2026-11-02", 1565], ["2026-11-06", 1570]],
+  "dolarMayorista": [["2026-11-02", 1543.62]],
+  "dolarMEP": [["2026-11-04", 1584.76], ["2026-11-06", 1578]],
+  "inflacion": [["2026-08", 1.7], ["2026-09", 1.9]],
+  "remAnual": {"fecha": "2026-11-05", "valor": 21.8},
+  "tasaPlazoFijo": [["2026-11-06", 20.5]],
+  "tasaAdelantos": [["2026-11-06", 55]],
+  "ipimMetal": [],
+  "salarios": [],
+  "feriados": [
+    {"fecha": "2026-11-09", "nombre": "Feriado por la visita del Papa", "tipo": "extraordinario"},
+    {"fecha": "2026-11-23", "nombre": "Día de la Soberanía Nacional (trasladado)", "tipo": "trasladable"},
+    {"fecha": "2026-12-08", "nombre": "Inmaculada Concepción de María", "tipo": "inamovible"},
+    {"fecha": "2026-12-25", "nombre": "Navidad", "tipo": "inamovible"},
+    {"fecha": "2027-01-01", "nombre": "Año Nuevo", "tipo": "inamovible"},
+    {"fecha": "2027-02-08", "nombre": "Carnaval", "tipo": "inamovible"},
+    {"fecha": "2027-02-09", "nombre": "Carnaval", "tipo": "inamovible"},
+    {"fecha": "2027-03-24", "nombre": "Día Nacional de la Memoria por la Verdad y la Justicia", "tipo": "inamovible"},
+    {"fecha": "2027-03-26", "nombre": "Viernes Santo", "tipo": "inamovible"},
+    {"fecha": "2027-04-02", "nombre": "Día del Veterano y de los Caídos en Malvinas", "tipo": "inamovible"},
+    {"fecha": "2027-05-01", "nombre": "Día del Trabajador", "tipo": "inamovible"},
+    {"fecha": "2027-05-25", "nombre": "Revolución de Mayo", "tipo": "inamovible"},
+    {"fecha": "2027-06-20", "nombre": "Paso a la Inmortalidad de Belgrano", "tipo": "inamovible"},
+    {"fecha": "2027-07-09", "nombre": "Día de la Independencia", "tipo": "inamovible"},
+    {"fecha": "2027-12-08", "nombre": "Inmaculada Concepción de María", "tipo": "inamovible"},
+    {"fecha": "2027-12-25", "nombre": "Navidad", "tipo": "inamovible"}
+  ]
+}

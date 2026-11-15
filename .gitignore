@@ -1,0 +1,5 @@
+node_modules/
+captura*.png
+*.tmp
+.DS_Store
+.netlify
