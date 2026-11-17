@@ -1,7 +1,7 @@
 {
  "version": 1,
- "actualizado": "2026-11-16T11:30:34.663Z",
- "fechaDatos": "2026-11-15",
+ "actualizado": "2026-11-17T11:10:17.603Z",
+ "fechaDatos": "2026-11-16",
  "fuentes": [
   {
    "id": "bcra",
@@ -15,14 +15,14 @@
    "nombre": "Dólar MEP (bolsa) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
    "ok": true,
-   "nota": "último 2026-11-16 = $1580.9"
+   "nota": "último 2026-11-17 = $1588.9"
   },
   {
    "id": "dolar_oficial",
    "nombre": "Dólar oficial (BNA, venta) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
    "ok": true,
-   "nota": "último 2026-11-16 = $1570"
+   "nota": "último 2026-11-17 = $1575"
   },
   {
    "id": "feriados",
@@ -50,7 +50,7 @@
    "nombre": "Tasa de plazo fijo a 30 días (mediana de bancos, TNA) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/finanzas/tasas/plazoFijo",
    "ok": true,
-   "nota": "mediana de 33 bancos = 20.0% TNA"
+   "nota": "mediana de 33 bancos = 20.5% TNA"
   },
   {
    "id": "salarios",
@@ -61,10 +61,6 @@
   }
  ],
  "dolarOficial": [
-  [
-   "2025-09-21",
-   1515
-  ],
   [
    "2025-09-22",
    1430
@@ -1748,6 +1744,10 @@
   [
    "2026-11-16",
    1570
+  ],
+  [
+   "2026-11-17",
+   1575
   ]
  ],
  "dolarMayorista": [
@@ -2850,13 +2850,13 @@
   [
    "2026-11-13",
    1547.0336
+  ],
+  [
+   "2026-11-16",
+   1549.6732
   ]
  ],
  "dolarMEP": [
-  [
-   "2025-09-21",
-   1580.5
-  ],
   [
    "2025-09-22",
    1431.6
@@ -4540,6 +4540,10 @@
   [
    "2026-11-16",
    1580.9
+  ],
+  [
+   "2026-11-17",
+   1588.9
   ]
  ],
  "inflacion": [
@@ -5758,12 +5762,20 @@
    21.22
   ],
   [
+   "2026-11-13",
+   21.51
+  ],
+  [
    "2026-11-14",
    20
   ],
   [
    "2026-11-15",
    20
+  ],
+  [
+   "2026-11-16",
+   20.5
   ]
  ],
  "tasaAdelantos": [
@@ -6837,7 +6849,7 @@
   ],
   [
    "2026-10-30",
-   24.89
+   24.88
   ],
   [
    "2026-11-02",
@@ -6866,6 +6878,10 @@
   [
    "2026-11-12",
    26.79
+  ],
+  [
+   "2026-11-13",
+   26.14
   ]
  ],
  "ipimMetal": [],
@@ -7245,5 +7261,5 @@
    "tipo": "inamovible"
   }
  ],
- "deslizamientoMensual": 1.13
+ "deslizamientoMensual": 1.29
 }
