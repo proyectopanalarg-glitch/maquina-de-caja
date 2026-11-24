@@ -1,7 +1,7 @@
 {
  "version": 1,
- "actualizado": "2026-11-23T11:14:20.838Z",
- "fechaDatos": "2026-11-22",
+ "actualizado": "2026-11-24T11:00:17.136Z",
+ "fechaDatos": "2026-11-23",
  "fuentes": [
   {
    "id": "bcra",
@@ -15,14 +15,14 @@
    "nombre": "Dólar MEP (bolsa) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
    "ok": true,
-   "nota": "último 2026-11-23 = $1743.1"
+   "nota": "último 2026-11-24 = $1743.1"
   },
   {
    "id": "dolar_oficial",
    "nombre": "Dólar oficial (BNA, venta) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
    "ok": true,
-   "nota": "último 2026-11-23 = $1600"
+   "nota": "último 2026-11-24 = $1600"
   },
   {
    "id": "feriados",
@@ -61,10 +61,6 @@
   }
  ],
  "dolarOficial": [
-  [
-   "2025-09-28",
-   1350
-  ],
   [
    "2025-09-29",
    1380
@@ -1748,6 +1744,10 @@
   [
    "2026-11-23",
    1600
+  ],
+  [
+   "2026-11-24",
+   1600
   ]
  ],
  "dolarMayorista": [
@@ -2853,10 +2853,6 @@
   ]
  ],
  "dolarMEP": [
-  [
-   "2025-09-28",
-   1440.2
-  ],
   [
    "2025-09-29",
    1452.9
@@ -4540,6 +4536,10 @@
   [
    "2026-11-23",
    1743.1
+  ],
+  [
+   "2026-11-24",
+   1743.1
   ]
  ],
  "inflacion": [
@@ -5775,6 +5775,10 @@
   ],
   [
    "2026-11-22",
+   20
+  ],
+  [
+   "2026-11-23",
    20
   ]
  ],
@@ -7257,5 +7261,5 @@
    "tipo": "inamovible"
   }
  ],
- "deslizamientoMensual": 2.1
+ "deslizamientoMensual": 1.93
 }
