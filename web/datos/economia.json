@@ -1,7 +1,7 @@
 {
  "version": 1,
- "actualizado": "2026-11-24T11:00:17.136Z",
- "fechaDatos": "2026-11-23",
+ "actualizado": "2026-11-25T11:05:52.117Z",
+ "fechaDatos": "2026-11-24",
  "fuentes": [
   {
    "id": "bcra",
@@ -15,14 +15,14 @@
    "nombre": "Dólar MEP (bolsa) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
    "ok": true,
-   "nota": "último 2026-11-24 = $1743.1"
+   "nota": "último 2026-11-25 = $1695.1"
   },
   {
    "id": "dolar_oficial",
    "nombre": "Dólar oficial (BNA, venta) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
    "ok": true,
-   "nota": "último 2026-11-24 = $1600"
+   "nota": "último 2026-11-25 = $1615"
   },
   {
    "id": "feriados",
@@ -61,10 +61,6 @@
   }
  ],
  "dolarOficial": [
-  [
-   "2025-09-29",
-   1380
-  ],
   [
    "2025-09-30",
    1400
@@ -1748,13 +1744,13 @@
   [
    "2026-11-24",
    1600
+  ],
+  [
+   "2026-11-25",
+   1615
   ]
  ],
  "dolarMayorista": [
-  [
-   "2025-09-29",
-   1341
-  ],
   [
    "2025-09-30",
    1366.5833
@@ -2850,13 +2846,13 @@
   [
    "2026-11-20",
    1575.9572
+  ],
+  [
+   "2026-11-24",
+   1592.0227
   ]
  ],
  "dolarMEP": [
-  [
-   "2025-09-29",
-   1452.9
-  ],
   [
    "2025-09-30",
    1503.2
@@ -4540,6 +4536,10 @@
   [
    "2026-11-24",
    1743.1
+  ],
+  [
+   "2026-11-25",
+   1695.1
   ]
  ],
  "inflacion": [
@@ -4657,10 +4657,6 @@
   "valor": 21.8
  },
  "tasaPlazoFijo": [
-  [
-   "2025-09-29",
-   38.8
-  ],
   [
    "2025-09-30",
    37.67
@@ -5767,7 +5763,7 @@
   ],
   [
    "2026-11-20",
-   20
+   21.06
   ],
   [
    "2026-11-21",
@@ -5780,13 +5776,13 @@
   [
    "2026-11-23",
    20
+  ],
+  [
+   "2026-11-24",
+   20
   ]
  ],
  "tasaAdelantos": [
-  [
-   "2025-09-29",
-   45.16
-  ],
   [
    "2025-09-30",
    44.02
@@ -6882,6 +6878,10 @@
   [
    "2026-11-19",
    25.46
+  ],
+  [
+   "2026-11-20",
+   25.7
   ]
  ],
  "ipimMetal": [],
@@ -7261,5 +7261,5 @@
    "tipo": "inamovible"
   }
  ],
- "deslizamientoMensual": 1.93
+ "deslizamientoMensual": 2.24
 }
