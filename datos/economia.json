@@ -1,7 +1,7 @@
 {
  "version": 1,
- "actualizado": "2026-11-26T11:04:18.354Z",
- "fechaDatos": "2026-11-25",
+ "actualizado": "2026-11-27T11:00:13.189Z",
+ "fechaDatos": "2026-11-26",
  "fuentes": [
   {
    "id": "bcra",
@@ -15,14 +15,14 @@
    "nombre": "Dólar MEP (bolsa) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
    "ok": true,
-   "nota": "último 2026-11-26 = $1688.7"
+   "nota": "último 2026-11-27 = $1666.4"
   },
   {
    "id": "dolar_oficial",
    "nombre": "Dólar oficial (BNA, venta) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
    "ok": true,
-   "nota": "último 2026-11-26 = $1630"
+   "nota": "último 2026-11-27 = $1625"
   },
   {
    "id": "feriados",
@@ -50,7 +50,7 @@
    "nombre": "Tasa de plazo fijo a 30 días (mediana de bancos, TNA) — ArgentinaDatos",
    "url": "https://api.argentinadatos.com/v1/finanzas/tasas/plazoFijo",
    "ok": true,
-   "nota": "mediana de 33 bancos = 20.5% TNA"
+   "nota": "mediana de 34 bancos = 21.0% TNA"
   },
   {
    "id": "salarios",
@@ -61,10 +61,6 @@
   }
  ],
  "dolarOficial": [
-  [
-   "2025-10-01",
-   1450
-  ],
   [
    "2025-10-02",
    1450
@@ -1748,13 +1744,13 @@
   [
    "2026-11-26",
    1630
+  ],
+  [
+   "2026-11-27",
+   1625
   ]
  ],
  "dolarMayorista": [
-  [
-   "2025-10-01",
-   1423.8333
-  ],
   [
    "2025-10-02",
    1424.75
@@ -2850,13 +2846,13 @@
   [
    "2026-11-25",
    1608.6204
+  ],
+  [
+   "2026-11-26",
+   1600.6872
   ]
  ],
  "dolarMEP": [
-  [
-   "2025-10-01",
-   1530.5
-  ],
   [
    "2025-10-02",
    1507.8
@@ -4540,6 +4536,10 @@
   [
    "2026-11-26",
    1688.7
+  ],
+  [
+   "2026-11-27",
+   1666.4
   ]
  ],
  "inflacion": [
@@ -4657,10 +4657,6 @@
   "valor": 21.8
  },
  "tasaPlazoFijo": [
-  [
-   "2025-10-01",
-   40.17
-  ],
   [
    "2025-10-02",
    39.93
@@ -5779,14 +5775,14 @@
   ],
   [
    "2026-11-25",
-   20.5
+   20.56
+  ],
+  [
+   "2026-11-26",
+   21
   ]
  ],
  "tasaAdelantos": [
-  [
-   "2025-10-01",
-   44.38
-  ],
   [
    "2025-10-02",
    44.54
@@ -6857,7 +6853,7 @@
   ],
   [
    "2026-11-13",
-   26.13
+   26.12
   ],
   [
    "2026-11-16",
@@ -6877,11 +6873,15 @@
   ],
   [
    "2026-11-20",
-   25.7
+   25.74
   ],
   [
    "2026-11-24",
    24.85
+  ],
+  [
+   "2026-11-25",
+   25.69
   ]
  ],
  "ipimMetal": [],
@@ -7261,5 +7261,5 @@
    "tipo": "inamovible"
   }
  ],
- "deslizamientoMensual": 2.71
+ "deslizamientoMensual": 2.56
 }
